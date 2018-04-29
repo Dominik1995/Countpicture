@@ -9,7 +9,7 @@
     Funktion.
 */
 
-var anzahlBilder = 8;
+var anzahlBilder = 9;
 
 /*
     Macht die Bilder sichtbar.
@@ -57,6 +57,20 @@ createHeadline("Beispiel Headline");
 function printWindow() {
     window.print();
 }
+
+
+var anzahlFiles = 1;
+var name = "gym";
+function createFiles() {
+    var getFileArea = document.getElementById('files');
+    var newElement = document.createElement('a');
+    var fileSource = "Files/" + name + ".pdf";
+    newElement.text = name;
+    getFileArea.appendChild(newElement);
+
+}
+
+
 
 
 

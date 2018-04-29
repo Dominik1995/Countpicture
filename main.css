@@ -53,3 +53,9 @@ img {
     color: white;
 }
 
+#files {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
